@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.3 on win32)" generated="20230711 13:35:15.378" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot-framework-playwright" source="C:\Users\aleon\Workspace\Robot-framework-playwright">
+<suite id="s1-s1" name="Tests" source="C:\Users\aleon\Workspace\Robot-framework-playwright\tests">
+<suite id="s1-s1-s1" name="Serve-Rest-Front" source="C:\Users\aleon\Workspace\Robot-framework-playwright\tests\serve-rest-front.robot">
+<test id="s1-s1-s1-t1" name="Example Test" line="5">
+<kw name="New Page">
+<arg>https://playwright.dev</arg>
+<msg timestamp="20230711 13:35:15.434" level="FAIL">No keyword with name 'New Page' found.</msg>
+<status status="FAIL" starttime="20230711 13:35:15.434" endtime="20230711 13:35:15.434"/>
+</kw>
+<kw name="Get Text">
+<arg>h1</arg>
+<arg>==</arg>
+<arg>🎭 Playwright</arg>
+<status status="NOT RUN" starttime="20230711 13:35:15.442" endtime="20230711 13:35:15.451"/>
+</kw>
+<status status="FAIL" starttime="20230711 13:35:15.426" endtime="20230711 13:35:15.451">No keyword with name 'New Page' found.</status>
+</test>
+<status status="FAIL" starttime="20230711 13:35:15.410" endtime="20230711 13:35:15.455"/>
+</suite>
+<status status="FAIL" starttime="20230711 13:35:15.402" endtime="20230711 13:35:15.456"/>
+</suite>
+<status status="FAIL" starttime="20230711 13:35:15.378" endtime="20230711 13:35:15.459"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Robot-framework-playwright">Robot-framework-playwright</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Robot-framework-playwright.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Serve-Rest-Front">Robot-framework-playwright.Tests.Serve-Rest-Front</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230711 13:35:15.418" level="ERROR">Error in file 'C:\Users\aleon\Workspace\Robot-framework-playwright\tests\serve-rest-front.robot' on line 2: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\aleon\Workspace\Robot-framework-playwright\lib
+  C:\Users\aleon\Workspace\Robot-framework-playwright\resources
+  c:\Users\aleon\.vscode\extensions\d-biehl.robotcode-0.47.1\bundled\libs
+  c:\Users\aleon\.vscode\extensions\d-biehl.robotcode-0.47.1\bundled\tool\robotcode
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\python311.zip
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\DLLs
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0
+  C:\Users\aleon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\site-packages</msg>
+</errors>
+</robot>
