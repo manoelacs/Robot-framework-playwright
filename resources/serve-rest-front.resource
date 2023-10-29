@@ -103,7 +103,7 @@ Login with the new user via API
 
     Take Screenshot
 
-Cadastrar Usuário e Logar
+Register user and log in
     New Browser
     New Page    url=${SITE_SERVE_REST}
     Create a new user by API

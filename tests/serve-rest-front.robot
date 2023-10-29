@@ -1,7 +1,7 @@
 *** Settings ***
 Resource        ../resources/serve-rest-front.resource
 
-Suite Setup     Cadastrar Usuário e Logar
+Suite Setup     Register user and log in
 
 
 *** Test Cases ***
@@ -11,7 +11,7 @@ Login com sucesso Serve Rest Front
     Signup a user
     Check if the user was created
 
-Desafio: Conferir se o novo usuário é mostrado na listagem de usuários
+Check if the new user is in the userlist
     Open the Site Serve Rest Front login
     Get user list
     Check if there is the an user in a list
@@ -21,11 +21,11 @@ Create product and get in the list
     Register a new product
     Check if there is the product in the product list
 
-Exemplo utilizando Requisições HTTP
+Creating new user using HTTP requests
     Open Navigator
     Go to Serve Rest Front website
-    Criar usuário via API
-    Logar com o usuário cadastrado via API
+    Create a new user by API
+    Login with the new user via API
 
 Using Storage in the context
     Open the Site Serve Rest Front login
