@@ -1,5 +1,5 @@
 name: Manual Run WEB Tests Desafio
-run-name: Manual - Web Tests Run - Desafio
+run-name: Manual - Web Tests
 on:
   workflow_dispatch:
     inputs:
