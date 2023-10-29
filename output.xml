@@ -1,185 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1 (Python 3.10.6 on linux)" generated="20231022 09:14:27.520" rpa="false" schemaversion="4">
-<suite id="s1" name="Serve-Rest-Front" source="/home/manoela/Robot-framework-playwright/tests/serve-rest-front.robot">
-<test id="s1-t1" name="Login com sucesso Serve Rest Front" line="6">
-<kw name="Abrir o navegador" library="serve-rest-front">
+<robot generator="Robot 6.1 (Python 3.10.6 on linux)" generated="20231029 14:24:00.030" rpa="false" schemaversion="4">
+<suite id="s1" name="The-Internet-Herokuapp" source="/home/manoela/Robot-framework-playwright/tests/the-internet-herokuapp.robot">
+<test id="s1-t1" name="Interagindo com Dropdown" line="7">
+<kw name="Acessar &quot;https://the-internet.herokuapp.com/dropdown&quot;" library="the-internet-herokuapp" sourcename="Acessar &quot;${site}&quot;">
 <kw name="New Browser" library="Browser">
 <arg>browser=${BROWSER}</arg>
 <arg>headless=${HEADLESS}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20231022 09:14:28.052" level="INFO">{"browser": "chromium", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "/home/manoela/Robot-framework-playwright/browser/traces/07d8ab70-903a-4bbf-8941-0ffa5b6a0047"}</msg>
-<msg timestamp="20231022 09:14:28.243" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"/home/manoela/Robot-framework-playwright/browser/traces/07d8ab70-903a-4bbf-8941-0ffa5b6a0047"}</msg>
-<status status="PASS" starttime="20231022 09:14:28.047" endtime="20231022 09:14:28.243"/>
+<msg timestamp="20231029 14:24:02.176" level="INFO">{"browser": "chromium", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "/home/manoela/Robot-framework-playwright/browser/traces/09cab5c2-c903-4765-9e4b-3b0403e2c79d"}</msg>
+<msg timestamp="20231029 14:24:07.714" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"/home/manoela/Robot-framework-playwright/browser/traces/09cab5c2-c903-4765-9e4b-3b0403e2c79d"}</msg>
+<status status="PASS" starttime="20231029 14:24:02.175" endtime="20231029 14:24:07.714"/>
 </kw>
-<kw name="Uuid 4" library="FakerLibrary">
-<var>${TRACE_NAME}</var>
-<doc>Generate a random UUID4 object and cast it to another type if specified using a callable ``cast_to``.</doc>
-<msg timestamp="20231022 09:14:28.244" level="INFO">${TRACE_NAME} = fde42907-735d-4389-8c8a-53f0e513e788</msg>
-<status status="PASS" starttime="20231022 09:14:28.243" endtime="20231022 09:14:28.244"/>
-</kw>
-<kw name="Get Current Date" library="DateTime">
-<var>${NOW}</var>
-<arg>result_format=%d-%m-%H%M%S</arg>
-<doc>Returns current local or UTC time with an optional increment.</doc>
-<msg timestamp="20231022 09:14:28.244" level="INFO">${NOW} = 22-10-091428</msg>
-<status status="PASS" starttime="20231022 09:14:28.244" endtime="20231022 09:14:28.244"/>
-</kw>
-<kw name="New Context" library="Browser">
-<arg>viewPort={ 'width': 1200, 'height': 800}</arg>
-<arg>tracing=${OUTPUT_DIR}/evidences/${NOW}/${TRACE_NAME}.zip</arg>
-<arg>recordVideo={'dir':'${OUTPUT_DIR}/evidences/videos/${NOW}'}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new BrowserContext with specified options.</doc>
-<msg timestamp="20231022 09:14:28.248" level="WARN">Deprecated positional arguments are used in 'New Context'. Please use named arguments instead. Will be removed after March 2023.</msg>
-<msg timestamp="20231022 09:14:28.249" level="INFO">{
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "forcedColors": "none",
-  "hideRfBrowser": false,
-  "ignoreHTTPSErrors": false,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "recordVideo": {
-    "dir": "/home/manoela/Robot-framework-playwright/evidences/videos/22-10-091428",
-    "size": {
-      "width": 1280,
-      "height": 720
-    }
-  },
-  "reducedMotion": "no-preference",
-  "tracing": "/home/manoela/Robot-framework-playwright/evidences/22-10-091428/fde42907-735d-4389-8c8a-53f0e513e788.zip",
-  "viewport": {
-    "width": 1280,
-    "height": 720
-  },
-  "deprecated_pos_args": [
-    "viewPort={ 'width': 1200, 'height': 800}"
-  ]
-}</msg>
-<msg timestamp="20231022 09:14:28.260" level="INFO">Successfully created context and trace file will be saved to: /home/manoela/Robot-framework-playwright/evidences/22-10-091428/fde42907-735d-4389-8c8a-53f0e513e788.zip</msg>
-<msg timestamp="20231022 09:14:28.260" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'hideRfBrowser': False, 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'recordVideo': {'dir': '/home/manoela/Robot-framework-playwright/evidences/videos/22-10-091428', 'size': {'width': 1280, 'height': 720}}, 'reducedMotion': 'no-preference', 'tracing': '/home/manoela/Robot-framework-playwright/evidences/22-10-091428/fde42907-735d-4389-8c8a-53f0e513e788.zip', 'viewport': {'width': 1280, 'height': 720}, 'deprecated_pos_args': ["viewPort={ 'width': 1200, 'height': 800}"], 'trace': {'screenshots': True, 'snapshots': True}}</msg>
-<status status="PASS" starttime="20231022 09:14:28.245" endtime="20231022 09:14:28.260"/>
-</kw>
-<status status="PASS" starttime="20231022 09:14:28.046" endtime="20231022 09:14:28.261"/>
-</kw>
-<kw name="Ir para o site serve rest front" library="serve-rest-front">
 <kw name="New Page" library="Browser">
-<arg>url=${SITE_SERVE_REST}</arg>
+<arg>url=${site}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20231022 09:14:32.928" level="INFO">Successfully initialized new page object and opened url: https://front.serverest.dev/login</msg>
-<msg timestamp="20231022 09:14:32.929" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;video width="1280" height="720" controls&gt;&lt;source src="evidences/videos/22-10-091428/1fe0bdb5fd2060f75f224cf39e13b1b0.webm" type="video/webm"&gt;&lt;/video&gt;</msg>
-<status status="PASS" starttime="20231022 09:14:28.262" endtime="20231022 09:14:32.929"/>
+<msg timestamp="20231029 14:24:14.265" level="INFO">Successfully initialized new page object and opened url: https://the-internet.herokuapp.com/dropdown</msg>
+<msg timestamp="20231029 14:24:14.265" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20231029 14:24:07.715" endtime="20231029 14:24:14.266"/>
 </kw>
-<status status="PASS" starttime="20231022 09:14:28.261" endtime="20231022 09:14:32.929"/>
+<status status="PASS" starttime="20231029 14:24:02.175" endtime="20231029 14:24:14.266"/>
 </kw>
-<kw name="Preencher os dados do novo usuário e cadastrar" library="serve-rest-front">
-<kw name="Click" library="Browser">
-<arg>css = a[data-testid = 'cadastrar']</arg>
+<kw name="Selecionar opção &quot;Option 1&quot;" library="the-internet-herokuapp" sourcename="Selecionar opção &quot;${opcao}&quot;">
+<kw name="Select Options By" library="Browser">
+<arg>id=dropdown</arg>
+<arg>text</arg>
+<arg>${opcao}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<msg timestamp="20231022 09:14:33.015" level="INFO">Highlighted 1 elements for 2000.</msg>
-<status status="PASS" starttime="20231022 09:14:32.930" endtime="20231022 09:14:35.068"/>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="PASS" starttime="20231029 14:24:14.267" endtime="20231029 14:24:14.310"/>
 </kw>
-<kw name="Email" library="FakerLibrary">
-<var>${EMAIL}</var>
-<msg timestamp="20231022 09:14:35.068" level="INFO">${EMAIL} = lisa33@example.org</msg>
-<status status="PASS" starttime="20231022 09:14:35.068" endtime="20231022 09:14:35.069"/>
+<status status="PASS" starttime="20231029 14:24:14.267" endtime="20231029 14:24:14.310"/>
 </kw>
-<kw name="Set Test Variable" library="BuiltIn">
-<arg>${EMAIL}</arg>
-<doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<msg timestamp="20231022 09:14:35.069" level="INFO">${EMAIL} = lisa33@example.org</msg>
-<status status="PASS" starttime="20231022 09:14:35.069" endtime="20231022 09:14:35.069"/>
-</kw>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[data-testid='nome']</arg>
-<arg>maria da silva</arg>
+<kw name="Tirar Print" library="the-internet-herokuapp" type="TEARDOWN">
+<kw name="Take Screenshot" library="Browser">
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20231022 09:14:35.083" level="INFO">Fills the text 'maria da silva' in the given field.</msg>
-<msg timestamp="20231022 09:14:35.124" level="INFO">Highlighted 1 elements for 2000.</msg>
-<status status="PASS" starttime="20231022 09:14:35.069" endtime="20231022 09:14:37.155"/>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20231029 14:24:14.494" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20231029 14:24:14.311" endtime="20231029 14:24:14.494"/>
 </kw>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[data-testid='email']</arg>
-<arg>${EMAIL}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20231022 09:14:37.163" level="INFO">Fills the text 'lisa33@example.org' in the given field.</msg>
-<msg timestamp="20231022 09:14:37.226" level="INFO">Highlighted 1 elements for 2000.</msg>
-<status status="PASS" starttime="20231022 09:14:37.155" endtime="20231022 09:14:39.254"/>
+<status status="PASS" starttime="20231029 14:24:14.311" endtime="20231029 14:24:14.495"/>
 </kw>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[data-testid='password']</arg>
-<arg>123456</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20231022 09:14:39.265" level="INFO">Fills the text '123456' in the given field.</msg>
-<msg timestamp="20231022 09:14:39.326" level="INFO">Highlighted 1 elements for 2000.</msg>
-<status status="PASS" starttime="20231022 09:14:39.255" endtime="20231022 09:14:41.352"/>
-</kw>
-<kw name="Check Checkbox" library="Browser">
-<arg>css=input[data-testid='checkbox']</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
-<msg timestamp="20231022 09:14:41.426" level="INFO">Highlighted 1 elements for 2000.</msg>
-<status status="PASS" starttime="20231022 09:14:41.353" endtime="20231022 09:14:43.479"/>
-</kw>
-<kw name="Click" library="Browser">
-<arg>css=button[data-testid='cadastrar']</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<msg timestamp="20231022 09:14:43.546" level="INFO">Highlighted 1 elements for 2000.</msg>
-<status status="PASS" starttime="20231022 09:14:43.480" endtime="20231022 09:14:45.591"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20231022 09:14:50.592" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20231022 09:14:45.591" endtime="20231022 09:14:50.592"/>
-</kw>
-<status status="PASS" starttime="20231022 09:14:32.930" endtime="20231022 09:14:50.593"/>
-</kw>
-<kw name="Conferir usuario cadastrado com sucesso" library="serve-rest-front">
-<kw name="Get Text" library="Browser">
-<arg>h1</arg>
-<arg>==</arg>
-<arg>Bem Vindo maria da silva</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20231022 09:14:52.667" level="INFO">Highlighted 1 elements for 2000.</msg>
-<msg timestamp="20231022 09:14:52.667" level="INFO">Text: 'Bem Vindo maria da silva'</msg>
-<status status="PASS" starttime="20231022 09:14:50.594" endtime="20231022 09:14:52.667"/>
-</kw>
-<kw name="Get Element States" library="Browser">
-<arg>css=button[data-testid='logout']</arg>
-<arg>validate</arg>
-<arg>value &amp; visible</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<msg timestamp="20231022 09:14:52.721" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<status status="PASS" starttime="20231022 09:14:52.668" endtime="20231022 09:14:52.722"/>
-</kw>
-<status status="PASS" starttime="20231022 09:14:50.593" endtime="20231022 09:14:52.722"/>
-</kw>
-<status status="PASS" starttime="20231022 09:14:28.043" endtime="20231022 09:14:52.723"/>
+<status status="PASS" starttime="20231029 14:24:02.172" endtime="20231029 14:24:14.496"/>
 </test>
-<status status="PASS" starttime="20231022 09:14:27.522" endtime="20231022 09:14:58.922"/>
+<status status="PASS" starttime="20231029 14:24:00.035" endtime="20231029 14:24:14.555"/>
 </suite>
 <statistics>
 <total>
@@ -188,10 +56,9 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Serve-Rest-Front">Serve-Rest-Front</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="The-Internet-Herokuapp">The-Internet-Herokuapp</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20231022 09:14:28.248" level="WARN">Deprecated positional arguments are used in 'New Context'. Please use named arguments instead. Will be removed after March 2023.</msg>
 </errors>
 </robot>

@@ -5,11 +5,11 @@ on:
     inputs:
       tag:
         type: string
-        description: Qual é a TAG a ser executada?
+        description: what is the TAG?
         required: true
       browser:
         type: choice
-        description: Qual BROWSER executar?
+        description: Which BROWSER?
         required: true
         options:
           - 'chromium'

@@ -1,172 +1,46 @@
-{"level":30,"time":"2023-10-22T06:14:27.935Z","pid":12290,"hostname":"Manoela","msg":"Listening on 36693"}
-{"level":30,"time":"2023-10-22T06:14:28.041Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:28.042Z","pid":12290,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:28.045Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:28.045Z","pid":12290,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:28.048Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-================= Original suppressed error =================
-Error: No page open.
-    at PlaywrightServer.getActivePage (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9974:15)
-    at PlaywrightServer.evaluateJavascript (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10029:75)
-    at /home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:821:17
-    at Http2ServerCallStream.safeDeserializeMessage (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-call.js:395:13)
-    at ServerHttp2Stream.onEnd (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-call.js:382:22)
-    at ServerHttp2Stream.emit (node:events:525:35)
-    at endReadableNT (node:internal/streams/readable:1359:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-=============================================================
-{"level":30,"time":"2023-10-22T06:14:28.048Z","pid":12290,"hostname":"Manoela","msg":"Error of node method  evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:28.053Z","pid":12290,"hostname":"Manoela","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2023-10-22T06:14:28.241Z","pid":12290,"hostname":"Manoela","msg":"End of node method newBrowser"}
-{"level":30,"time":"2023-10-22T06:14:28.246Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-================= Original suppressed error =================
-Error: No page open.
-    at PlaywrightServer.getActivePage (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9974:15)
-    at PlaywrightServer.evaluateJavascript (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10029:75)
-    at /home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:821:17
-    at Http2ServerCallStream.safeDeserializeMessage (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-call.js:395:13)
-    at ServerHttp2Stream.onEnd (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-call.js:382:22)
-    at ServerHttp2Stream.emit (node:events:525:35)
-    at endReadableNT (node:internal/streams/readable:1359:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-=============================================================
-{"level":30,"time":"2023-10-22T06:14:28.246Z","pid":12290,"hostname":"Manoela","msg":"Error of node method  evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:28.250Z","pid":12290,"hostname":"Manoela","msg":"Start of node method newContext"}
-{"level":30,"time":"2023-10-22T06:14:28.250Z","pid":12290,"hostname":"Manoela","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-10-22T06:14:28.250Z","pid":12290,"hostname":"Manoela","msg":"Trace file: /home/manoela/Robot-framework-playwright/evidences/22-10-091428/fde42907-735d-4389-8c8a-53f0e513e788.zip"}
-{"level":30,"time":"2023-10-22T06:14:28.257Z","pid":12290,"hostname":"Manoela","msg":"Tracing enabled with: { screenshots: true, snapshots: true }"}
-{"level":30,"time":"2023-10-22T06:14:28.258Z","pid":12290,"hostname":"Manoela","msg":"End of node method newContext"}
-{"level":30,"time":"2023-10-22T06:14:28.258Z","pid":12290,"hostname":"Manoela","msg":"Changed active context"}
-{"level":30,"time":"2023-10-22T06:14:28.262Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-================= Original suppressed error =================
-Error: No page open.
-    at PlaywrightServer.getActivePage (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9974:15)
-    at PlaywrightServer.evaluateJavascript (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10029:75)
-    at /home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:821:17
-    at Http2ServerCallStream.safeDeserializeMessage (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-call.js:395:13)
-    at ServerHttp2Stream.onEnd (/home/manoela/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-call.js:382:22)
-    at ServerHttp2Stream.emit (node:events:525:35)
-    at endReadableNT (node:internal/streams/readable:1359:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-=============================================================
-{"level":30,"time":"2023-10-22T06:14:28.262Z","pid":12290,"hostname":"Manoela","msg":"Error of node method  evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:28.265Z","pid":12290,"hostname":"Manoela","msg":"Start of node method newPage"}
-{"level":30,"time":"2023-10-22T06:14:28.266Z","pid":12290,"hostname":"Manoela","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-10-22T06:14:29.342Z","pid":12290,"hostname":"Manoela","msg":"Video path: /home/manoela/Robot-framework-playwright/evidences/videos/22-10-091428/1fe0bdb5fd2060f75f224cf39e13b1b0.webm"}
-{"level":30,"time":"2023-10-22T06:14:29.343Z","pid":12290,"hostname":"Manoela","msg":"Changed active page"}
-{"level":30,"time":"2023-10-22T06:14:32.926Z","pid":12290,"hostname":"Manoela","msg":"End of node method newPage"}
-{"level":30,"time":"2023-10-22T06:14:32.931Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:32.944Z","pid":12290,"hostname":"Manoela","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:32.947Z","pid":12290,"hostname":"Manoela","msg":"Start of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:32.948Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css = a[data-testid = 'cadastrar'] in page."}
-{"level":30,"time":"2023-10-22T06:14:32.999Z","pid":12290,"hostname":"Manoela","msg":"End of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:33.001Z","pid":12290,"hostname":"Manoela","msg":"Start of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:33.002Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is disabled, return Locator: css = a[data-testid = 'cadastrar'] in page."}
-{"level":30,"time":"2023-10-22T06:14:33.005Z","pid":12290,"hostname":"Manoela","msg":"Locator count is 1"}
-{"level":30,"time":"2023-10-22T06:14:33.013Z","pid":12290,"hostname":"Manoela","msg":"End of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:35.019Z","pid":12290,"hostname":"Manoela","msg":"Start of node method click"}
-{"level":30,"time":"2023-10-22T06:14:35.019Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css = a[data-testid = 'cadastrar'] in page."}
-{"level":30,"time":"2023-10-22T06:14:35.066Z","pid":12290,"hostname":"Manoela","msg":"End of node method click"}
-{"level":30,"time":"2023-10-22T06:14:35.071Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:35.081Z","pid":12290,"hostname":"Manoela","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:35.084Z","pid":12290,"hostname":"Manoela","msg":"Start of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:35.084Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=input[data-testid='nome'] in page."}
-{"level":30,"time":"2023-10-22T06:14:35.113Z","pid":12290,"hostname":"Manoela","msg":"End of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:35.114Z","pid":12290,"hostname":"Manoela","msg":"Start of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:35.114Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is disabled, return Locator: css=input[data-testid='nome'] in page."}
-{"level":30,"time":"2023-10-22T06:14:35.116Z","pid":12290,"hostname":"Manoela","msg":"Locator count is 1"}
-{"level":30,"time":"2023-10-22T06:14:35.123Z","pid":12290,"hostname":"Manoela","msg":"End of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:37.128Z","pid":12290,"hostname":"Manoela","msg":"Start of node method fillText"}
-{"level":30,"time":"2023-10-22T06:14:37.128Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=input[data-testid='nome'] in page."}
-{"level":30,"time":"2023-10-22T06:14:37.153Z","pid":12290,"hostname":"Manoela","msg":"End of node method fillText"}
-{"level":30,"time":"2023-10-22T06:14:37.156Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:37.162Z","pid":12290,"hostname":"Manoela","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:37.164Z","pid":12290,"hostname":"Manoela","msg":"Start of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:37.164Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=input[data-testid='email'] in page."}
-{"level":30,"time":"2023-10-22T06:14:37.213Z","pid":12290,"hostname":"Manoela","msg":"End of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:37.215Z","pid":12290,"hostname":"Manoela","msg":"Start of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:37.215Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is disabled, return Locator: css=input[data-testid='email'] in page."}
-{"level":30,"time":"2023-10-22T06:14:37.220Z","pid":12290,"hostname":"Manoela","msg":"Locator count is 1"}
-{"level":30,"time":"2023-10-22T06:14:37.225Z","pid":12290,"hostname":"Manoela","msg":"End of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:39.229Z","pid":12290,"hostname":"Manoela","msg":"Start of node method fillText"}
-{"level":30,"time":"2023-10-22T06:14:39.230Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=input[data-testid='email'] in page."}
-{"level":30,"time":"2023-10-22T06:14:39.252Z","pid":12290,"hostname":"Manoela","msg":"End of node method fillText"}
-{"level":30,"time":"2023-10-22T06:14:39.256Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:39.263Z","pid":12290,"hostname":"Manoela","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:39.266Z","pid":12290,"hostname":"Manoela","msg":"Start of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:39.266Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=input[data-testid='password'] in page."}
-{"level":30,"time":"2023-10-22T06:14:39.312Z","pid":12290,"hostname":"Manoela","msg":"End of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:39.314Z","pid":12290,"hostname":"Manoela","msg":"Start of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:39.314Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is disabled, return Locator: css=input[data-testid='password'] in page."}
-{"level":30,"time":"2023-10-22T06:14:39.319Z","pid":12290,"hostname":"Manoela","msg":"Locator count is 1"}
-{"level":30,"time":"2023-10-22T06:14:39.325Z","pid":12290,"hostname":"Manoela","msg":"End of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:41.329Z","pid":12290,"hostname":"Manoela","msg":"Start of node method fillText"}
-{"level":30,"time":"2023-10-22T06:14:41.330Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=input[data-testid='password'] in page."}
-{"level":30,"time":"2023-10-22T06:14:41.350Z","pid":12290,"hostname":"Manoela","msg":"End of node method fillText"}
-{"level":30,"time":"2023-10-22T06:14:41.354Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:41.361Z","pid":12290,"hostname":"Manoela","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:41.363Z","pid":12290,"hostname":"Manoela","msg":"Start of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:41.363Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=input[data-testid='checkbox'] in page."}
-{"level":30,"time":"2023-10-22T06:14:41.413Z","pid":12290,"hostname":"Manoela","msg":"End of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:41.415Z","pid":12290,"hostname":"Manoela","msg":"Start of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:41.416Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is disabled, return Locator: css=input[data-testid='checkbox'] in page."}
-{"level":30,"time":"2023-10-22T06:14:41.420Z","pid":12290,"hostname":"Manoela","msg":"Locator count is 1"}
-{"level":30,"time":"2023-10-22T06:14:41.425Z","pid":12290,"hostname":"Manoela","msg":"End of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:43.429Z","pid":12290,"hostname":"Manoela","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2023-10-22T06:14:43.430Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=input[data-testid='checkbox'] in page."}
-{"level":30,"time":"2023-10-22T06:14:43.478Z","pid":12290,"hostname":"Manoela","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2023-10-22T06:14:43.481Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:43.487Z","pid":12290,"hostname":"Manoela","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:43.489Z","pid":12290,"hostname":"Manoela","msg":"Start of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:43.489Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=button[data-testid='cadastrar'] in page."}
-{"level":30,"time":"2023-10-22T06:14:43.531Z","pid":12290,"hostname":"Manoela","msg":"End of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:43.533Z","pid":12290,"hostname":"Manoela","msg":"Start of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:43.533Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is disabled, return Locator: css=button[data-testid='cadastrar'] in page."}
-{"level":30,"time":"2023-10-22T06:14:43.538Z","pid":12290,"hostname":"Manoela","msg":"Locator count is 1"}
-{"level":30,"time":"2023-10-22T06:14:43.545Z","pid":12290,"hostname":"Manoela","msg":"End of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:45.549Z","pid":12290,"hostname":"Manoela","msg":"Start of node method click"}
-{"level":30,"time":"2023-10-22T06:14:45.549Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=button[data-testid='cadastrar'] in page."}
-{"level":30,"time":"2023-10-22T06:14:45.590Z","pid":12290,"hostname":"Manoela","msg":"End of node method click"}
-{"level":30,"time":"2023-10-22T06:14:50.595Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:50.601Z","pid":12290,"hostname":"Manoela","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:50.604Z","pid":12290,"hostname":"Manoela","msg":"Start of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:50.604Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with h1 in page."}
-{"level":30,"time":"2023-10-22T06:14:50.629Z","pid":12290,"hostname":"Manoela","msg":"End of node method scrollToElement"}
-{"level":30,"time":"2023-10-22T06:14:50.630Z","pid":12290,"hostname":"Manoela","msg":"Start of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:50.630Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is disabled, return Locator: h1 in page."}
-{"level":30,"time":"2023-10-22T06:14:50.632Z","pid":12290,"hostname":"Manoela","msg":"Locator count is 1"}
-{"level":30,"time":"2023-10-22T06:14:50.637Z","pid":12290,"hostname":"Manoela","msg":"End of node method highlightElements"}
-{"level":30,"time":"2023-10-22T06:14:52.641Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getText"}
-{"level":30,"time":"2023-10-22T06:14:52.641Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with h1 in page."}
-{"level":30,"time":"2023-10-22T06:14:52.666Z","pid":12290,"hostname":"Manoela","msg":"Retrieved text for element h1 containing Bem Vindo maria da silva"}
-{"level":30,"time":"2023-10-22T06:14:52.666Z","pid":12290,"hostname":"Manoela","msg":"End of node method getText"}
-{"level":30,"time":"2023-10-22T06:14:52.668Z","pid":12290,"hostname":"Manoela","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:52.675Z","pid":12290,"hostname":"Manoela","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2023-10-22T06:14:52.677Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2023-10-22T06:14:52.677Z","pid":12290,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with css=button[data-testid='logout'] in page."}
-{"level":30,"time":"2023-10-22T06:14:52.720Z","pid":12290,"hostname":"Manoela","msg":"End of node method getElementStates"}
-{"level":30,"time":"2023-10-22T06:14:57.732Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:57.735Z","pid":12290,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:57.737Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:57.739Z","pid":12290,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:57.741Z","pid":12290,"hostname":"Manoela","msg":"Changed active context"}
-{"level":30,"time":"2023-10-22T06:14:57.741Z","pid":12290,"hostname":"Manoela","msg":"Changing current active page"}
-{"level":30,"time":"2023-10-22T06:14:57.742Z","pid":12290,"hostname":"Manoela","msg":"Changed active page"}
-{"level":30,"time":"2023-10-22T06:14:57.744Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:57.746Z","pid":12290,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:57.748Z","pid":12290,"hostname":"Manoela","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-10-22T06:14:57.748Z","pid":12290,"hostname":"Manoela","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-10-22T06:14:57.749Z","pid":12290,"hostname":"Manoela","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-10-22T06:14:57.749Z","pid":12290,"hostname":"Manoela","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-10-22T06:14:57.752Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:57.754Z","pid":12290,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:57.755Z","pid":12290,"hostname":"Manoela","msg":"Changed active context"}
-{"level":30,"time":"2023-10-22T06:14:57.755Z","pid":12290,"hostname":"Manoela","msg":"Changing current active page"}
-{"level":30,"time":"2023-10-22T06:14:57.755Z","pid":12290,"hostname":"Manoela","msg":"Changed active page"}
-{"level":30,"time":"2023-10-22T06:14:57.757Z","pid":12290,"hostname":"Manoela","msg":"Start of node method closeContext"}
-{"level":30,"time":"2023-10-22T06:14:57.965Z","pid":12290,"hostname":"Manoela","msg":"Removed page=7335dadd-9864-45d8-934c-cc533540e6b5 from context=cedced20-283b-4478-9ea7-415e42d3675e page stack"}
-{"level":30,"time":"2023-10-22T06:14:58.920Z","pid":12290,"hostname":"Manoela","msg":"End of node method closeContext"}
-{"level":30,"time":"2023-10-22T06:14:58.924Z","pid":12290,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:14:58.925Z","pid":12290,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-22T06:15:00.940Z","pid":12290,"hostname":"Manoela","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2023-10-22T06:15:01.028Z","pid":12290,"hostname":"Manoela","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-29T11:24:01.989Z","pid":27261,"hostname":"Manoela","msg":"Listening on 57583"}
+{"level":30,"time":"2023-10-29T11:24:02.170Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:02.170Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:02.173Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:02.173Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:02.180Z","pid":27261,"hostname":"Manoela","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-10-29T11:24:07.713Z","pid":27261,"hostname":"Manoela","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-10-29T11:24:07.717Z","pid":27261,"hostname":"Manoela","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-29T11:24:07.717Z","pid":27261,"hostname":"Manoela","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-29T11:24:07.726Z","pid":27261,"hostname":"Manoela","msg":"Changed active context"}
+{"level":30,"time":"2023-10-29T11:24:10.287Z","pid":27261,"hostname":"Manoela","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-29T11:24:10.287Z","pid":27261,"hostname":"Manoela","msg":"Changed active page"}
+{"level":30,"time":"2023-10-29T11:24:14.262Z","pid":27261,"hostname":"Manoela","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-29T11:24:14.268Z","pid":27261,"hostname":"Manoela","msg":"Start of node method selectOption"}
+{"level":30,"time":"2023-10-29T11:24:14.268Z","pid":27261,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with id=dropdown in page."}
+{"level":30,"time":"2023-10-29T11:24:14.308Z","pid":27261,"hostname":"Manoela","msg":"Option entries: 3"}
+{"level":30,"time":"2023-10-29T11:24:14.308Z","pid":27261,"hostname":"Manoela","msg":"End of node method selectOption"}
+{"level":30,"time":"2023-10-29T11:24:14.308Z","pid":27261,"hostname":"Manoela","msg":"Selected entries: 1"}
+{"level":30,"time":"2023-10-29T11:24:14.312Z","pid":27261,"hostname":"Manoela","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-10-29T11:24:14.313Z","pid":27261,"hostname":"Manoela","Take screenshot with options: ":{"path":"/home/manoela/Robot-framework-playwright/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-10-29T11:24:14.491Z","pid":27261,"hostname":"Manoela","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-10-29T11:24:14.499Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.502Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.504Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.506Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.508Z","pid":27261,"hostname":"Manoela","msg":"Changed active context"}
+{"level":30,"time":"2023-10-29T11:24:14.508Z","pid":27261,"hostname":"Manoela","msg":"Changing current active page"}
+{"level":30,"time":"2023-10-29T11:24:14.508Z","pid":27261,"hostname":"Manoela","msg":"Changed active page"}
+{"level":30,"time":"2023-10-29T11:24:14.512Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.515Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.518Z","pid":27261,"hostname":"Manoela","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-29T11:24:14.518Z","pid":27261,"hostname":"Manoela","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-29T11:24:14.520Z","pid":27261,"hostname":"Manoela","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-29T11:24:14.520Z","pid":27261,"hostname":"Manoela","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-29T11:24:14.523Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.525Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.527Z","pid":27261,"hostname":"Manoela","msg":"Changed active context"}
+{"level":30,"time":"2023-10-29T11:24:14.527Z","pid":27261,"hostname":"Manoela","msg":"Changing current active page"}
+{"level":30,"time":"2023-10-29T11:24:14.527Z","pid":27261,"hostname":"Manoela","msg":"Changed active page"}
+{"level":30,"time":"2023-10-29T11:24:14.531Z","pid":27261,"hostname":"Manoela","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-29T11:24:14.538Z","pid":27261,"hostname":"Manoela","msg":"Removed page=623730de-caf5-46fe-a76c-32739a481e0a from context=a3c22255-541c-4b75-962d-25248f45ae76 page stack"}
+{"level":30,"time":"2023-10-29T11:24:14.552Z","pid":27261,"hostname":"Manoela","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-29T11:24:14.557Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:14.557Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-29T11:24:16.579Z","pid":27261,"hostname":"Manoela","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-29T11:24:16.741Z","pid":27261,"hostname":"Manoela","msg":"End of node method closeAllBrowsers"}
