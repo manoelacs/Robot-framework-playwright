@@ -7,7 +7,7 @@ Library     DateTime
 
 
 *** Variables ***
-${BROWSER}              chromium
+${BROWSER}              webkit
 ${HEADLESS}             ${true}
 ${SITE_SERVE_REST}      https://front.serverest.dev/
 
@@ -35,7 +35,7 @@ Signup a user
     Click    css=a[data-testid='cadastrar']
     ${EMAIL}    FakerLibrary.Email
     Set Suite Variable    ${EMAIL}
-    Fill Text    css=input[data-testid='nome']    Mayara Fernandes
+    Fill Text    css=input[data-testid='nome']    Maria Aparecida
     Fill Text    css=input[data-testid='email']    ${EMAIL}
     Fill Text    css=input[data-testid='password']    123456
     Check Checkbox    css=input[data-testid='checkbox']
@@ -44,7 +44,7 @@ Signup a user
 
 Check if the user was created
     Wait For Elements State    h1    visible
-    Get Text    h1    ==    Bem Vindo Mayara Fernandes
+    Get Text    h1    ==    Bem Vindo Maria Aparecida
     Get Element States    css=button[data-testid='logout']    validate    value & visible
 
 Create new user
@@ -58,7 +58,7 @@ Get user list
 
 Check if there is the an user in a list
     ${elemento}    Get Table Cell Element    css=table    "Nome"    "${EMAIL}"
-    ${usuario_nome}    Get Text    ${elemento}    ==    Mayara Fernandes
+    ${usuario_nome}    Get Text    ${elemento}    ==    Maria Aparecida
     Highlight Elements    ${elemento}
     Take Screenshot    fullPage=${true}
 
