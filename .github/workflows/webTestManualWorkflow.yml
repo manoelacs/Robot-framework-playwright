@@ -5,7 +5,7 @@ on:
     inputs:
       tag:
         type: string
-        description: Qual é a TAG a ser executada?
+        description: What is the TAG?
         required: true
 
 jobs:
