@@ -50,7 +50,7 @@ jobs:
         if: always()
         uses: actions/download-artifact@v3
         with:
-          name: results
+          name: results-${{ matrix.browser }}
       - name: List Results Directory
         run: ls -R ./results
 
