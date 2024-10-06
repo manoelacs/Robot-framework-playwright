@@ -58,7 +58,7 @@ jobs:
 
       - name: Download Tests Results
         if: always()
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v3
         with:
           name: results-${{ inputs.browser }}
 
