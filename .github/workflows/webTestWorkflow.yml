@@ -51,6 +51,8 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: results-${{ matrix.browser }}
+      - name: List Results Directory
+        run: ls -R ./results
 
       - name: Send Report
         if: always()
