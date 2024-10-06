@@ -50,7 +50,7 @@ jobs:
         if: always()
         uses: actions/download-artifact@v3
         with:
-          name: results-${{ matrix.browser }}
+          name: results
       - name: List Results Directory
         run: ls -R ./results
 
@@ -58,6 +58,5 @@ jobs:
         if: always()
         uses: joonvena/robotframework-reporter-action@v2.5
         with:
-          report_path: results-${{ matrix.browser }}
           gh_access_token: ${{ secrets.GITHUB_TOKEN }}
           show_passed_tests: false
