@@ -1,0 +1,8 @@
+
+# Ignore everything in the root except the "src" directory
+/*
+!.gitignore
+results/** 
+browser/**
+browser/screenshot/**
+playwright-log.txt
