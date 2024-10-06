@@ -58,6 +58,6 @@ jobs:
         if: always()
         uses: joonvena/robotframework-reporter-action@v2.1
         with:
-          report_path: results-${{ matrix.browser }}
+          report_path: 'results'
           gh_access_token: ${{ secrets.GITHUB_TOKEN }}
           show_passed_tests: false
