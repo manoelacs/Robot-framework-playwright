@@ -89,6 +89,7 @@ Create a new user by API
     Should Be Equal As Integers    ${resposta["status"]}    201
 
 Login with the new user via API
+    [Tags]    login_with_api
     ${resposta}    Http    url=https://serverest.dev/login
     ...    method=POST
     ...    body={"email": "${EMAIL}","password": "123456"}
@@ -112,6 +113,7 @@ Register user and log in
     Set Suite Variable    ${STORAGE_FILE}
 
 Open the Site Serve Rest Front login
+    [Tags]    open_server_rest_loging
     New Browser    browser=${BROWSER}
     ...    headless=${HEADLESS}
     New Context    viewport={'width': 1200, 'height': 800}

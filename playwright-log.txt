@@ -1,46 +1,62 @@
-{"level":30,"time":"2023-10-29T11:24:01.989Z","pid":27261,"hostname":"Manoela","msg":"Listening on 57583"}
-{"level":30,"time":"2023-10-29T11:24:02.170Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:02.170Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:02.173Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:02.173Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:02.180Z","pid":27261,"hostname":"Manoela","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2023-10-29T11:24:07.713Z","pid":27261,"hostname":"Manoela","msg":"End of node method newBrowser"}
-{"level":30,"time":"2023-10-29T11:24:07.717Z","pid":27261,"hostname":"Manoela","msg":"Start of node method newPage"}
-{"level":30,"time":"2023-10-29T11:24:07.717Z","pid":27261,"hostname":"Manoela","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-10-29T11:24:07.726Z","pid":27261,"hostname":"Manoela","msg":"Changed active context"}
-{"level":30,"time":"2023-10-29T11:24:10.287Z","pid":27261,"hostname":"Manoela","msg":"Video path: undefined"}
-{"level":30,"time":"2023-10-29T11:24:10.287Z","pid":27261,"hostname":"Manoela","msg":"Changed active page"}
-{"level":30,"time":"2023-10-29T11:24:14.262Z","pid":27261,"hostname":"Manoela","msg":"End of node method newPage"}
-{"level":30,"time":"2023-10-29T11:24:14.268Z","pid":27261,"hostname":"Manoela","msg":"Start of node method selectOption"}
-{"level":30,"time":"2023-10-29T11:24:14.268Z","pid":27261,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with id=dropdown in page."}
-{"level":30,"time":"2023-10-29T11:24:14.308Z","pid":27261,"hostname":"Manoela","msg":"Option entries: 3"}
-{"level":30,"time":"2023-10-29T11:24:14.308Z","pid":27261,"hostname":"Manoela","msg":"End of node method selectOption"}
-{"level":30,"time":"2023-10-29T11:24:14.308Z","pid":27261,"hostname":"Manoela","msg":"Selected entries: 1"}
-{"level":30,"time":"2023-10-29T11:24:14.312Z","pid":27261,"hostname":"Manoela","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2023-10-29T11:24:14.313Z","pid":27261,"hostname":"Manoela","Take screenshot with options: ":{"path":"/home/manoela/Robot-framework-playwright/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2023-10-29T11:24:14.491Z","pid":27261,"hostname":"Manoela","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2023-10-29T11:24:14.499Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.502Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.504Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.506Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.508Z","pid":27261,"hostname":"Manoela","msg":"Changed active context"}
-{"level":30,"time":"2023-10-29T11:24:14.508Z","pid":27261,"hostname":"Manoela","msg":"Changing current active page"}
-{"level":30,"time":"2023-10-29T11:24:14.508Z","pid":27261,"hostname":"Manoela","msg":"Changed active page"}
-{"level":30,"time":"2023-10-29T11:24:14.512Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.515Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.518Z","pid":27261,"hostname":"Manoela","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-10-29T11:24:14.518Z","pid":27261,"hostname":"Manoela","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-10-29T11:24:14.520Z","pid":27261,"hostname":"Manoela","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-10-29T11:24:14.520Z","pid":27261,"hostname":"Manoela","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-10-29T11:24:14.523Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.525Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.527Z","pid":27261,"hostname":"Manoela","msg":"Changed active context"}
-{"level":30,"time":"2023-10-29T11:24:14.527Z","pid":27261,"hostname":"Manoela","msg":"Changing current active page"}
-{"level":30,"time":"2023-10-29T11:24:14.527Z","pid":27261,"hostname":"Manoela","msg":"Changed active page"}
-{"level":30,"time":"2023-10-29T11:24:14.531Z","pid":27261,"hostname":"Manoela","msg":"Start of node method closeContext"}
-{"level":30,"time":"2023-10-29T11:24:14.538Z","pid":27261,"hostname":"Manoela","msg":"Removed page=623730de-caf5-46fe-a76c-32739a481e0a from context=a3c22255-541c-4b75-962d-25248f45ae76 page stack"}
-{"level":30,"time":"2023-10-29T11:24:14.552Z","pid":27261,"hostname":"Manoela","msg":"End of node method closeContext"}
-{"level":30,"time":"2023-10-29T11:24:14.557Z","pid":27261,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:14.557Z","pid":27261,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-29T11:24:16.579Z","pid":27261,"hostname":"Manoela","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2023-10-29T11:24:16.741Z","pid":27261,"hostname":"Manoela","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-31T10:49:43.776Z","pid":17217,"hostname":"Manoela","msg":"Listening on 50651"}
+{"level":30,"time":"2023-10-31T10:49:43.830Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:43.831Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:43.833Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:43.833Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:43.841Z","pid":17217,"hostname":"Manoela","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-10-31T10:49:45.354Z","pid":17217,"hostname":"Manoela","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-10-31T10:49:45.359Z","pid":17217,"hostname":"Manoela","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-31T10:49:45.360Z","pid":17217,"hostname":"Manoela","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-31T10:49:45.406Z","pid":17217,"hostname":"Manoela","msg":"Changed active context"}
+{"level":30,"time":"2023-10-31T10:49:46.061Z","pid":17217,"hostname":"Manoela","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-31T10:49:46.061Z","pid":17217,"hostname":"Manoela","msg":"Changed active page"}
+{"level":30,"time":"2023-10-31T10:49:48.729Z","pid":17217,"hostname":"Manoela","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-31T10:49:48.734Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:48.746Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:48.751Z","pid":17217,"hostname":"Manoela","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-31T10:49:48.751Z","pid":17217,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with text=\"Click Here\" in page."}
+{"level":30,"time":"2023-10-31T10:49:48.876Z","pid":17217,"hostname":"Manoela","msg":"End of node method click"}
+{"level":30,"time":"2023-10-31T10:49:49.034Z","pid":17217,"hostname":"Manoela","msg":"Changed active page"}
+{"level":30,"time":"2023-10-31T10:49:49.045Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-31T10:49:49.045Z","pid":17217,"hostname":"Manoela","msg":"Strict mode is enabled, find Locator with h3 in page."}
+{"level":30,"time":"2023-10-31T10:49:49.108Z","pid":17217,"hostname":"Manoela","msg":"Retrieved text for element h3 containing New Window"}
+{"level":30,"time":"2023-10-31T10:49:49.108Z","pid":17217,"hostname":"Manoela","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-31T10:49:49.114Z","pid":17217,"hostname":"Manoela","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-10-31T10:49:49.115Z","pid":17217,"hostname":"Manoela","Take screenshot with options: ":{"path":"/home/manoela/Robot-framework-playwright/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-10-31T10:49:49.141Z","pid":17217,"hostname":"Manoela","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-10-31T10:49:49.147Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.152Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.156Z","pid":17217,"hostname":"Manoela","msg":"Changing current active page"}
+{"level":30,"time":"2023-10-31T10:49:49.156Z","pid":17217,"hostname":"Manoela","msg":"Changed active page"}
+{"level":30,"time":"2023-10-31T10:49:49.467Z","pid":17217,"hostname":"Manoela","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-10-31T10:49:49.468Z","pid":17217,"hostname":"Manoela","Take screenshot with options: ":{"path":"/home/manoela/Robot-framework-playwright/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-10-31T10:49:49.494Z","pid":17217,"hostname":"Manoela","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-10-31T10:49:49.500Z","pid":17217,"hostname":"Manoela","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-10-31T10:49:49.500Z","pid":17217,"hostname":"Manoela","Take screenshot with options: ":{"path":"/home/manoela/Robot-framework-playwright/browser/screenshot/robotframework-browser-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-10-31T10:49:49.523Z","pid":17217,"hostname":"Manoela","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-10-31T10:49:49.530Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.534Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.537Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.540Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.542Z","pid":17217,"hostname":"Manoela","msg":"Changed active context"}
+{"level":30,"time":"2023-10-31T10:49:49.542Z","pid":17217,"hostname":"Manoela","msg":"Changing current active page"}
+{"level":30,"time":"2023-10-31T10:49:49.542Z","pid":17217,"hostname":"Manoela","msg":"Changed active page"}
+{"level":30,"time":"2023-10-31T10:49:49.544Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.547Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.550Z","pid":17217,"hostname":"Manoela","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-31T10:49:49.550Z","pid":17217,"hostname":"Manoela","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-31T10:49:49.553Z","pid":17217,"hostname":"Manoela","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-31T10:49:49.553Z","pid":17217,"hostname":"Manoela","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-31T10:49:49.557Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.560Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.562Z","pid":17217,"hostname":"Manoela","msg":"Changed active context"}
+{"level":30,"time":"2023-10-31T10:49:49.562Z","pid":17217,"hostname":"Manoela","msg":"Changing current active page"}
+{"level":30,"time":"2023-10-31T10:49:49.562Z","pid":17217,"hostname":"Manoela","msg":"Changed active page"}
+{"level":30,"time":"2023-10-31T10:49:49.565Z","pid":17217,"hostname":"Manoela","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-31T10:49:49.577Z","pid":17217,"hostname":"Manoela","msg":"Removed page=396aabda-5ce4-476f-9708-8589935b7643 from context=43fdc4ea-8158-4b89-8915-bf028904dab7 page stack"}
+{"level":30,"time":"2023-10-31T10:49:49.589Z","pid":17217,"hostname":"Manoela","msg":"Removed page=53cce0e4-4138-4574-8a03-a88685164912 from context=43fdc4ea-8158-4b89-8915-bf028904dab7 page stack"}
+{"level":30,"time":"2023-10-31T10:49:49.591Z","pid":17217,"hostname":"Manoela","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-31T10:49:49.598Z","pid":17217,"hostname":"Manoela","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:49.598Z","pid":17217,"hostname":"Manoela","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-31T10:49:51.623Z","pid":17217,"hostname":"Manoela","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-31T10:49:52.001Z","pid":17217,"hostname":"Manoela","msg":"End of node method closeAllBrowsers"}
