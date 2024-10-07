@@ -44,7 +44,7 @@ Clicar e ir para a nova página aberta
     Get Text    h3    ==    New Window
     Tirar Print
 
-Get Page Ids
+Get PageIds
     ${page_ids}    Get Page Ids
    
     RETURN    ${page_ids}
