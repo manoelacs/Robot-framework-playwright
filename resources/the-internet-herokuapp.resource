@@ -46,5 +46,5 @@ Clicar e ir para a nova página aberta
 
 Voltar para a página inicial
     [Arguments]    ${pagina_id}
-    Switch Page    ${pagina_id}[0]
+    Switch Page   CURRENT
     Tirar Print
