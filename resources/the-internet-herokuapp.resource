@@ -43,8 +43,10 @@ Clicar e ir para a nova página aberta
     Switch Page    NEW
     Get Text    h3    ==    New Window
     Tirar Print
+
 Get Page Ids
     ${page_ids}    Get Page Ids
+    Log    ${page_ids}
     [Return]    ${page_ids}
 
 Voltar para a página inicial
