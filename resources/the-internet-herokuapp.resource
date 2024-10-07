@@ -44,11 +44,6 @@ Clicar e ir para a nova página aberta
     Get Text    h3    ==    New Window
     Tirar Print
 
-Get PageIds
-    ${page_ids}    Get Page Ids
-   
-    RETURN    ${page_ids}
-
 Voltar para a página inicial
     [Arguments]    ${pagina_id}
     Switch Page    ${pagina_id}[0]
