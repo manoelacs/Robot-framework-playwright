@@ -18,6 +18,6 @@ Interagindo com Tabelas
 
 Interagindo com novas abas (pages)
   Acessar "https://the-internet.herokuapp.com/windows"
-  ${page_ids}    Get Page Ids
+  ${page_id}    Get Page Ids
   Clicar e ir para a nova página aberta
-  Voltar para a página inicial  ${pagina_id}
+  Voltar para a página inicial  ${page_id}
