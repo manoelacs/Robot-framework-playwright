@@ -47,7 +47,7 @@ Clicar e ir para a nova página aberta
 Get Page Ids
     ${page_ids}    Get Page Ids
     Log    ${page_ids}
-    [Return]    ${page_ids}
+    RETURN    ${page_ids}
 
 Voltar para a página inicial
     [Arguments]    ${pagina_id}
